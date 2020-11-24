@@ -1,0 +1,47 @@
+--[[ Lua code. See documentation: https://api.tabletopsimulator.com/ --]]
+
+-- require("tk/main")
+
+
+function filterObjectEnterContainer(container, obj)
+    if container.tag == "Deck" or container.tag == "Card" or obj.getDescription():find(" Hero", 1, true) then
+        -- print("m " .. tostring(obj.getDescription():find(" Hero", 1, true)))
+        return false
+    else
+        return true
+    end
+end
+
+local containers = {
+    P1 = { -- blue
+        deck = "",
+        discard = "",
+        workers = "",
+    },
+    P2 = { -- white
+        deck = "",
+        discard = "",
+        workers = "",
+
+    },
+}
+
+
+function getContainers()
+    for _,obj in ipairs(getAllObjects()) do
+
+    end
+end
+
+local dz = require("ge_tts/DropZone")
+
+local function detectdups(container)
+    local guids = {}
+    for _,obj in ipairs(container.getObjects()) do
+        if guids[obj.guid] then
+            print("dup in " .. container.getName() .. " guid " .. obj.guid)
+            return
+        end
+    end
+    print("no dups in " .. container.getName())
+end

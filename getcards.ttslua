@@ -1,0 +1,39 @@
+specn = {"Black Demonology Necromancy Disease",
+"Red Anarchy Blood Fire",
+"Neutral Bashing Finesse",
+"Green Balance Feral Growth",
+"White Discipline Ninjutsu Strength",
+"Purple Past Present Future",
+"Blue Truth Peace Law"}
+specs = {} -- spec has codex, hero, tile, color.
+colors = {} -- color has workers, starting decks, specs (latter as strings for reference, not ids)
+for _,i in ipairs(specn) do
+  line = {}
+  for word in i:gmatch("%w+") do table.insert(line, word) end
+  linecolor = line[1]
+  colors[linecolor] = {Worker = "", first = "", Specs = {}}
+  for j = 2, #line do
+    specs[line[j]] = {Codex = "", Hero = "", Spec = "", Color = linecolor}
+    table.insert(colors[linecolor].Specs, line[j])
+  end
+end
+  -- print(colors.Red.Worker)
+  -- a = 'two words'
+  -- for f,j in ipairs(split(a, "%w+")) do
+  --   print("hi" .. j .. "bye")
+  --   print("end")
+  -- end
+allzone = getObjectFromGUID('283ed7').getObjects() -- big zone with all the cardsa
+for _,i in ipairs(allzone) do
+  isplit = {}
+  for word in i.getName():gmatch("%w+") do table.insert(isplit, word) end
+  nom = isplit[1]
+  cat = isplit[2]
+  if specs[nom] then
+    specs[nom][cat] = i.guid
+  elseif colors[nom] then
+    colors[nom][cat] = i.guid
+  end
+end
+print(colors.Red.Specs[1])
+end
