@@ -43,7 +43,7 @@ return {
     color = "Blue",
     cost = 4,
     keywords = {
-      "Flying"
+      Flying = true
     },
     name = "Air Hammer",
     rules_text_1 = "Flying",
@@ -103,7 +103,7 @@ return {
     color = "Green",
     cost = 2,
     keywords = {
-      "Anti-air"
+      ["Anti-air"] = true
     },
     max_level = 5,
     max_text_1 = "Max Level: Summon a 3/3 blue Water Elemental token with anti-air.",
@@ -125,7 +125,7 @@ return {
     color = "Purple",
     cost = 3,
     keywords = {
-      "Readiness"
+      Readiness = true
     },
     name = "Argonaut",
     rules_text_1 = "Readiness (Doesn't exhaust to attack, but can only attack once per turn.)",
@@ -239,7 +239,7 @@ return {
     cost = 3,
     flavor_text = "Don't let him slip behind you.",
     keywords = {
-      "Invisible"
+      Invisible = true
     },
     name = "Backstabber",
     rules_text_1 = "Invisible (To opponents without a detector, this is untargetable, unattackable, and can sneak past patrollers. While patrolling, this is attackable.)",
@@ -304,8 +304,8 @@ return {
     cost = 4,
     flavor_text = "Bear!",
     keywords = {
-      "Resist X",
-      "Overpower"
+      Overpower = true,
+      ["Resist X"] = true
     },
     name = "Barkcoat Bear",
     rules_text_1 = "Resist 2 (Opponents must pay ② each time they would ◎ this with a spell or ability.)",
@@ -334,7 +334,7 @@ return {
     color = "Green",
     cost = 2,
     keywords = {
-      "Stealth"
+      Stealth = true
     },
     name = "Behind the Ferns",
     rules_text_1 = "Channeling (Stays in play. Sacrifice it when you lose your Feral hero.)",
@@ -370,7 +370,7 @@ return {
     color = "Blue",
     cost = 2,
     keywords = {
-      "Stash"
+      Stash = true
     },
     max_level = 5,
     max_text_1 = "⤵ → Draw a card.",
@@ -394,7 +394,7 @@ return {
     color = "White",
     cost = 2,
     keywords = {
-      "Flying"
+      Flying = true
     },
     name = "Bird's Nest",
     rules_text_1 = "Channeling (Stays in play. Sacrifice it when you lose your Strength hero.)",
@@ -428,7 +428,7 @@ return {
     color = "Black",
     cost = 4,
     keywords = {
-      "Overpower"
+      Overpower = true
     },
     name = "Blackhand Dozer",
     rules_text_1 = "Overpower",
@@ -485,7 +485,7 @@ return {
     cost = 6,
     flavor_text = "It'll be over before you know it started.",
     keywords = {
-      "Swift Strike"
+      ["Swift Strike"] = true
     },
     name = "Blademaster",
     rules_text_1 = "Your units and heroes have swift strike. (They deal combat damage before units and heroes without swift strike.)",
@@ -528,7 +528,7 @@ return {
     color = "Red",
     cost = 2,
     keywords = {
-      "Haste"
+      Haste = true
     },
     name = "Bloodlust",
     rules_text_1 = "Give up to two units and/or heroes +1 ATK and haste this turn. They each take 1 damage at end of turn.",
@@ -603,7 +603,7 @@ return {
     color = "Green",
     cost = 3,
     keywords = {
-      "Overpower"
+      Overpower = true
     },
     name = "Blooming Elm",
     rules_text_1 = "Your units and heroes with +1/+1 runes have overpower.",
@@ -629,7 +629,7 @@ return {
     color = "Blue",
     cost = 2,
     keywords = {
-      "Long-range"
+      ["Long-range"] = true
     },
     name = "Bluecoat Musketeer",
     rules_text_1 = "While this has exactly 1 ATK, it has long-range.",
@@ -708,7 +708,7 @@ return {
     color = "Blue",
     cost = 3,
     keywords = {
-      "Readiness"
+      Readiness = true
     },
     name = "Brave Knight",
     rules_text_1 = "Readiness (Doesn't exhaust to attack, but can only attack once per turn.)",
@@ -741,7 +741,7 @@ return {
     cost = 2,
     flavor_text = "He has sometimes regretted not being a feather thief.",
     keywords = {
-      "Resist X"
+      ["Resist X"] = true
     },
     name = "Brick Thief",
     rules_text_1 = "Arrives or attacks: Deal 1 damage to a building and repair 1 damage from another building.",
@@ -825,8 +825,8 @@ return {
     color = "Green",
     cost = 2,
     keywords = {
-      "Stealth",
-      "Resist X"
+      ["Resist X"] = true,
+      Stealth = true
     },
     max_level = 5,
     max_text_1 = "④, ⤵ → Search your codex for a tiger unit and put it into play.",
@@ -886,7 +886,7 @@ return {
     color = "Red",
     cost = 2,
     keywords = {
-      "Haste"
+      Haste = true
     },
     max_level = 6,
     max_text_1 = "Max level: Shove a patroller to an empty slot in its patrol zone, then deal 1 damage to it. ◎",
@@ -1004,7 +1004,7 @@ return {
     color = "Green",
     cost = 3,
     keywords = {
-      "Overpower"
+      Overpower = true
     },
     name = "Centaur",
     rules_text_1 = "Overpower (Excess combat damage this would deal to a patroller hits something else this could attack.)",
@@ -1023,7 +1023,7 @@ return {
     cost = 2,
     flavor_text = "It comes in and out of view as the Sun and the Moon.",
     keywords = {
-      "Stealth"
+      Stealth = true
     },
     name = "Chameleon",
     rules_text_1 = "Stealth (Can sneak past patrollers if that opponent has no detector.)",
@@ -1041,8 +1041,8 @@ return {
     color = "Red",
     cost = 4,
     keywords = {
-      "Haste",
-      "Stealth"
+      Haste = true,
+      Stealth = true
     },
     name = "Chameleon Lizzo",
     rules_text_1 = "Haste",
@@ -1098,7 +1098,7 @@ return {
     color = "Red",
     cost = 2,
     keywords = {
-      "Haste"
+      Haste = true
     },
     name = "Charge",
     rules_text_1 = "Give one of your units haste and +1 ATK this turn.",
@@ -1114,7 +1114,7 @@ return {
     color = "Purple",
     cost = 2,
     keywords = {
-      "Untargetable"
+      Untargetable = true
     },
     name = "Chronofixer",
     rules_text_1 = "Untargetable",
@@ -1146,8 +1146,8 @@ return {
     color = "Red",
     cost = 7,
     keywords = {
-      "Flying",
-      "Resist X"
+      Flying = true,
+      ["Resist X"] = true
     },
     name = "Cinderblast Dragon",
     rules_text_1 = "Flying, resist 2 (Opponents must pay ② each time the would ◎ this with a spell or ability.)",
@@ -1207,7 +1207,7 @@ return {
     cost = 2,
     flavor_text = "She dances in the sky, avoiding the hassles of the ground.",
     keywords = {
-      "Flying"
+      Flying = true
     },
     name = "Cloud Sprite",
     rules_text_1 = "Flying (Can fly over ground patrollers. Ground forces without anti-air can't attack this or deal combat damage to it when attacked.)",
@@ -1225,7 +1225,7 @@ return {
     color = "White",
     cost = 6,
     keywords = {
-      "Unstoppable"
+      Unstoppable = true
     },
     name = "Colossus",
     rules_text_1 = "Unstoppable when attacking a base.",
@@ -1297,9 +1297,9 @@ return {
     color = "Red",
     cost = 3,
     keywords = {
-      "Ephemeral",
-      "Haste",
-      "Overpower"
+      Ephemeral = true,
+      Haste = true,
+      Overpower = true
     },
     name = "Crashbarrow",
     rules_text_1 = "Haste, ephemeral",
@@ -1318,8 +1318,8 @@ return {
     color = "Black",
     cost = 2,
     keywords = {
-      "Sparkshot",
-      "Flying"
+      Flying = true,
+      Sparkshot = true
     },
     name = "Crypt Crawler",
     rules_text_1 = "Sparkshot (When attacking a patroller, deals 1 damage to an adjacent patroller.)",
@@ -1345,7 +1345,7 @@ return {
     color = "Black",
     cost = 3,
     keywords = {
-      "Flying"
+      Flying = true
     },
     name = "Cursed Crow",
     rules_text_1 = "Flying",
@@ -1371,7 +1371,7 @@ return {
     color = "Black",
     cost = 4,
     keywords = {
-      "Unstoppable"
+      Unstoppable = true
     },
     name = "Cursed Ghoul",
     rules_text_1 = "Arrives: Put a -1/-1 rune on a unit.",
@@ -1569,8 +1569,8 @@ return {
     color = "Red",
     cost = 2,
     keywords = {
-      "Haste",
-      "Stealth"
+      Haste = true,
+      Stealth = true
     },
     name = "Disguised Monkey",
     rules_text_1 = "Haste",
@@ -1616,7 +1616,7 @@ return {
     cost = 3,
     flavor_text = "The horselords follow only the strong.",
     keywords = {
-      "Overpower"
+      Overpower = true
     },
     name = "Dothram Horselord",
     rules_text_1 = "Overpower",
@@ -1646,7 +1646,7 @@ return {
     color = "Purple",
     cost = 6,
     keywords = {
-      "Forecast X"
+      ["Forecast X"] = true
     },
     name = "Double Time",
     rules_text_1 = "Forecast 3 (Starts off in the future, not in play. Put three time runes on this and remove one each upkeep. When you remove the last, it resolves.)",
@@ -1670,7 +1670,7 @@ return {
     color = "Red",
     cost = 3,
     keywords = {
-      "Long-range"
+      ["Long-range"] = true
     },
     name = "Doubleshot Archer",
     rules_text_1 = "Long-range (Defenders without long-range deal no damage to this when it attacks.)",
@@ -1689,7 +1689,7 @@ return {
     color = "White",
     cost = 3,
     keywords = {
-      "Overpower"
+      Overpower = true
     },
     name = "Doubling Barbarbarian",
     rules_text_1 = "Overpower (Excess combat damage this would deal to a patroller hits something else this could attack.)",
@@ -1732,8 +1732,8 @@ return {
     color = "Red",
     cost = 2,
     keywords = {
-      "Frenzy X",
-      "Haste"
+      ["Frenzy X"] = true,
+      Haste = true
     },
     max_level = 6,
     max_text_1 = "The first unit that arrives from your hand each turn gets haste.",
@@ -1781,7 +1781,7 @@ return {
     color = "Blue",
     cost = 3,
     keywords = {
-      "Illusion"
+      Illusion = true
     },
     name = "Dreamscape",
     rules_text_1 = "Channeling (Stays in play. Sacrifice it when you lose your Truth hero.)",
@@ -1849,7 +1849,7 @@ return {
     color = "Purple",
     cost = 8,
     keywords = {
-      "Fading X"
+      ["Fading X"] = true
     },
     name = "Ebbflow Archon",
     rules_text_1 = "Fading 7 (Arrives with seven time runes. Remove one each upkeep. When you remove the last, sacrifice this.)",
@@ -1870,7 +1870,7 @@ return {
     cost = 4,
     flavor_text = "This somewhat-safe mode of transportation has been converted to a warship.",
     keywords = {
-      "Flying"
+      Flying = true
     },
     name = "Eggship",
     rules_text_1 = "Flying (Can fly over ground patrollers. Ground forces without anti-air can't attack this or deal combat damage to it when attacked.)",
@@ -1886,8 +1886,8 @@ return {
     color = "Blue",
     cost = 2,
     keywords = {
-      "Anti-air",
-      "Sparkshot"
+      ["Anti-air"] = true,
+      Sparkshot = true
     },
     name = "Elite Training",
     rules_text_1 = "Up to two of your units and/or heroes get +1 ATK, +1 armor, anti-air, and sparkshot until your next upkeep.",
@@ -1942,9 +1942,9 @@ return {
     color = "Blue",
     cost = 3,
     keywords = {
-      "Detector",
-      "Haste",
-      "Invisible"
+      Detector = true,
+      Haste = true,
+      Invisible = true
     },
     name = "Eyes of the Chancellor",
     rules_text_1 = "Detector, haste",
@@ -1963,7 +1963,7 @@ return {
     color = "Purple",
     cost = 2,
     keywords = {
-      "Fading X"
+      ["Fading X"] = true
     },
     name = "Fading Argonaut",
     rules_text_1 = "Fading 3 (Arrives with three time runes. Remove one each upkeep. When you remove the last, sacrifice this.)",
@@ -1980,7 +1980,7 @@ return {
     color = "Green",
     cost = 4,
     keywords = {
-      "Flying"
+      Flying = true
     },
     name = "Fairie Dragon",
     rules_text_1 = "Flying",
@@ -2023,7 +2023,7 @@ return {
     color = "Green",
     cost = 4,
     keywords = {
-      "Boost X"
+      ["Boost X"] = true
     },
     name = "Feral Strike",
     rules_text_1 = "Boost ④ (You may pay an additional ④ when you play this to get the boost effect.)",
@@ -2047,7 +2047,7 @@ return {
     cost = 2,
     flavor_text = "Nature protects herself with deadly speed and force.",
     keywords = {
-      "Swift Strike"
+      ["Swift Strike"] = true
     },
     name = "Ferocity",
     rules_text_1 = "Your units get armor piercing and swift strike until your next upkeep. (They ignore armor and deal their combat damage before units and heroes without swift strike.)",
@@ -2062,9 +2062,9 @@ return {
     color = "Green",
     cost = 3,
     keywords = {
-      "Readiness",
-      "Resist X",
-      "Anti-air"
+      ["Anti-air"] = true,
+      Readiness = true,
+      ["Resist X"] = true
     },
     name = "Final Showdown",
     rules_text_1 = "Attach to your Balance hero.",
@@ -2214,7 +2214,7 @@ return {
     color = "Blue",
     cost = 3,
     keywords = {
-      "Invisible"
+      Invisible = true
     },
     name = "Flagstone Spy",
     rules_text_1 = "Invisible (To opponents without a detector, he's untargetable, unattackable, and can sneak past patrollers. While patrolling, he's attackable.)",
@@ -2253,7 +2253,7 @@ return {
     color = "White",
     cost = 2,
     keywords = {
-      "Flying"
+      Flying = true
     },
     name = "Flying Fox",
     rules_text_1 = "Flying (Can fly over ground patrollers. Ground forces without anti-air can't attack this or deal combat damage to it when attacked.)",
@@ -2326,8 +2326,8 @@ return {
     color = "White",
     cost = 3,
     keywords = {
-      "Frenzy X",
-      "Anti-air"
+      ["Anti-air"] = true,
+      ["Frenzy X"] = true
     },
     name = "Fox Primus",
     rules_text_1 = "Frenzy 1 (Gets +1 ATK on your turn.)",
@@ -2345,7 +2345,7 @@ return {
     color = "White",
     cost = 2,
     keywords = {
-      "Sparkshot"
+      Sparkshot = true
     },
     name = "Fox Viper",
     rules_text_1 = "Sparkshot (When attacking a patroller, deals 1 damage to an adjacent patroller.)",
@@ -2361,7 +2361,7 @@ return {
     color = "White",
     cost = 4,
     keywords = {
-      "Invisible"
+      Invisible = true
     },
     name = "Fox's Den School",
     rules_text_1 = "Invisible",
@@ -2385,8 +2385,8 @@ return {
     color = "White",
     cost = 4,
     keywords = {
-      "Haste",
-      "Stealth"
+      Haste = true,
+      Stealth = true
     },
     name = "Fox's Den Students",
     rules_text_1 = "Summon four 1/1 white Ninja tokens. This turn, your Ninja units have haste and stealth.",
@@ -2450,7 +2450,7 @@ return {
     cost = 3,
     flavor_text = "Quick to slice fruit. Quick to slice YOU.",
     keywords = {
-      "Frenzy X"
+      ["Frenzy X"] = true
     },
     name = "Fruit Ninja",
     rules_text_1 = "Frenzy 1 (Gets +1 ATK on your turn.)",
@@ -2467,7 +2467,7 @@ return {
     color = "White",
     cost = 2,
     keywords = {
-      "Healing X"
+      ["Healing X"] = true
     },
     name = "Fuzz Cuddles",
     rules_text_1 = "Healing 2 (During your upkeep, heal 2 damage from all friendly units and heroes.)",
@@ -2515,8 +2515,8 @@ return {
     color = "Black",
     cost = 3,
     keywords = {
-      "Indestructible",
-      "Flying"
+      Flying = true,
+      Indestructible = true
     },
     name = "Gargoyle",
     rules_text_1 = "Indestructible (If this would die, exhaust it and remove all damage and attachments from it instead. You can't sacrifice it.)",
@@ -2584,7 +2584,7 @@ return {
     color = "White",
     cost = 2,
     keywords = {
-      "Unstoppable"
+      Unstoppable = true
     },
     max_level = 8,
     max_text_1 = "Two Lives (If this would die, heal all damage on it and put a crumbling rune on it instead. While it has a crumbling rune, it can really die.)",
@@ -2611,8 +2611,8 @@ return {
     cost = 1,
     flavor_text = "These owls can spot a mouse a mile away and shiny treasures from two.",
     keywords = {
-      "Flying",
-      "Resist X"
+      Flying = true,
+      ["Resist X"] = true
     },
     name = "Gemscout Owl",
     rules_text_1 = "Flying but can't attack.",
@@ -2637,9 +2637,9 @@ return {
     color = "Blue",
     cost = 2,
     keywords = {
-      "Frenzy X",
-      "Readiness",
-      "Sparkshot"
+      ["Frenzy X"] = true,
+      Readiness = true,
+      Sparkshot = true
     },
     max_level = 8,
     max_text_1 = "Max Level: Summon three 1/1 blue soldier tokens with sparkshot.",
@@ -2690,7 +2690,7 @@ return {
     cost = 9,
     flavor_text = "\"It was huge and it came out much earlier than we expected.\"",
     keywords = {
-      "Overpower"
+      Overpower = true
     },
     name = "Gigadon",
     rules_text_1 = "Gigadon costs ① less to play for each green unit you have.",
@@ -2763,8 +2763,8 @@ return {
     color = "White",
     cost = 5,
     keywords = {
-      "Haste",
-      "Swift Strike"
+      Haste = true,
+      ["Swift Strike"] = true
     },
     name = "Glorious Ninja",
     rules_text_1 = "Haste",
@@ -2783,7 +2783,7 @@ return {
     color = "Black",
     cost = 3,
     keywords = {
-      "Deathtouch"
+      Deathtouch = true
     },
     name = "Gorgon",
     rules_text_1 = "Deathtouch (Combat damage this deals to units or heroes, even to their armor, kills them.)",
@@ -2803,7 +2803,7 @@ return {
     cost = 3,
     flavor_text = "\"My flag flies for associations and societies based on a shared but ultimately fabricated premise, such as any company or nation.\"",
     keywords = {
-      "Flagbearer"
+      Flagbearer = true
     },
     name = "Granfalloon Flagbearer",
     rules_text_1 = "Whenever an opponent plays a spell or ability that can ◎ a flagbearer, it must ◎ a flagbearer at least once.",
@@ -2843,8 +2843,8 @@ return {
     color = "White",
     cost = 2,
     keywords = {
-      "Sparkshot",
-      "Readiness"
+      Readiness = true,
+      Sparkshot = true
     },
     max_level = 7,
     max_text_1 = "Max Level: Put a sword rune on this.",
@@ -2948,8 +2948,8 @@ return {
     color = "Green",
     cost = 10,
     keywords = {
-      "Resist X",
-      "Obliterate X"
+      ["Obliterate X"] = true,
+      ["Resist X"] = true
     },
     name = "Guargum, Eternal Sentinel",
     rules_text_1 = "Resist 2 (Opponents must pay ② each time they would ◎ this with a spell or ability.)",
@@ -2976,7 +2976,7 @@ return {
     color = "Red",
     cost = 2,
     keywords = {
-      "Anti-air"
+      ["Anti-air"] = true
     },
     name = "Gunpoint Taxman",
     rules_text_1 = "Anti-air (Can attack fliers, but can ignore patrolling fliers. Deals combat damage to fliers it fights or that fly over this while it patrols.)",
@@ -3000,7 +3000,7 @@ return {
     color = "Blue",
     cost = 2,
     keywords = {
-      "Illusion"
+      Illusion = true
     },
     name = "Hallucination",
     rules_text_1 = "Up to two tech 0, I, or II units are Illusions this turn. (Illusions die when they're ◎ by spells or abilities.)",
@@ -3017,7 +3017,7 @@ return {
     color = "Purple",
     cost = 3,
     keywords = {
-      "Indestructible"
+      Indestructible = true
     },
     name = "Hardened Mox",
     rules_text_1 = "Indestructible (If this would die, exhaust it and remove all damage and attachments from it instead. You can't sacrifice it.)",
@@ -3085,7 +3085,7 @@ return {
     cost = 5,
     flavor_text = "It reaps the fields. It reaps you.",
     keywords = {
-      "Overpower"
+      Overpower = true
     },
     name = "Harvest Reaper",
     rules_text_1 = "Overpower (Excess combat damage this would deal to a patroller hits something else this could attack.)",
@@ -3104,7 +3104,7 @@ return {
     cost = 2,
     flavor_text = "\"I'm helping.\"",
     keywords = {
-      "Healing X"
+      ["Healing X"] = true
     },
     name = "Helpful Turtle",
     rules_text_1 = "Healing 1 (During your upkeep, heal 1 damage from all friendly units and heroes.)",
@@ -3120,9 +3120,9 @@ return {
     color = "White",
     cost = 5,
     keywords = {
-      "Untargetable",
-      "Indestructible",
-      "Unstoppable"
+      Indestructible = true,
+      Unstoppable = true,
+      Untargetable = true
     },
     name = "Hero's Monument",
     rules_text_1 = "Untargetable",
@@ -3142,7 +3142,7 @@ return {
     color = "White",
     cost = 2,
     keywords = {
-      "Stealth"
+      Stealth = true
     },
     name = "Hidden Ninja",
     rules_text_1 = "Up to two of your units and/or heroes with 4 ATK or less have stealth this turn. (Can sneak past patrollers if that opponent has no detector.)",
@@ -3184,8 +3184,8 @@ return {
     color = "Purple",
     cost = 6,
     keywords = {
-      "Flying",
-      "Resist X"
+      Flying = true,
+      ["Resist X"] = true
     },
     name = "Hive",
     rules_text_1 = "Flying, resist 1",
@@ -3221,7 +3221,7 @@ return {
     color = "Black",
     cost = 2,
     keywords = {
-      "Boost X"
+      ["Boost X"] = true
     },
     name = "Hooded Executioner",
     rules_text_1 = "Boost ③ (You may pay an additional ③ when you play this to get the boost effect.)",
@@ -3285,8 +3285,8 @@ return {
     color = "Green",
     cost = 2,
     keywords = {
-      "Sparkshot",
-      "Anti-air"
+      ["Anti-air"] = true,
+      Sparkshot = true
     },
     name = "Huntress",
     rules_text_1 = "Sparkshot (When attacking a patroller, deals 1 damage to an adjacent patroller.)",
@@ -3305,7 +3305,7 @@ return {
     color = "Purple",
     cost = 5,
     keywords = {
-      "Haste"
+      Haste = true
     },
     name = "Hyperion",
     rules_text_1 = "Haste",
@@ -3324,7 +3324,7 @@ return {
     color = "Purple",
     cost = 6,
     keywords = {
-      "Indestructible"
+      Indestructible = true
     },
     name = "Immortal",
     rules_text_1 = "Indestructible (If this would die, exhaust it and remove all damage and attachments from it instead. You can't sacrifice it.)",
@@ -3515,8 +3515,8 @@ return {
     color = "White",
     cost = 8,
     keywords = {
-      "Flying",
-      "Swift Strike"
+      Flying = true,
+      ["Swift Strike"] = true
     },
     name = "Jade Fox, Den's Headmistress",
     rules_text_1 = "Arrives: Summon four 1/1 white Ninja tokens.",
@@ -3581,7 +3581,7 @@ return {
     color = "Red",
     cost = 2,
     keywords = {
-      "Sparkshot"
+      Sparkshot = true
     },
     max_level = 7,
     max_text_1 = "⤵ → Deal 3 damage to a unit or building. ◎",
@@ -3600,7 +3600,7 @@ return {
     color = "Black",
     cost = 3,
     keywords = {
-      "Overpower"
+      Overpower = true
     },
     name = "Jandra, the Negator",
     rules_text_1 = "Overpower (Excess combat damage this would deal to a patroller hits something else this could attack.)",
@@ -3681,7 +3681,7 @@ return {
     color = "Blue",
     cost = 6,
     keywords = {
-      "Unstoppable"
+      Unstoppable = true
     },
     name = "Justice Juggernaut",
     rules_text_1 = "Unstoppable but can't patrol. (Can ignore patrollers when attacking.)",
@@ -3705,7 +3705,7 @@ return {
     color = "Red",
     cost = 4,
     keywords = {
-      "Haste"
+      Haste = true
     },
     name = "Kidnapping",
     rules_text_1 = "Gain control of an opposing tech 0, I, or II unit until end of turn. Ready it and it gets haste until end of turn.",
@@ -3735,8 +3735,8 @@ return {
     color = "Purple",
     cost = 0,
     keywords = {
-      "Forecast X",
-      "Resist X"
+      ["Forecast X"] = true,
+      ["Resist X"] = true
     },
     name = "Knight of the Conclave",
     rules_text_1 = "Forecast 3 (Starts off in the future, not in play. Put three time runes on this and remove one each upkeep. When you remove the last, it arrives.)",
@@ -3755,7 +3755,7 @@ return {
     color = "Red",
     cost = 3,
     keywords = {
-      "Overpower"
+      Overpower = true
     },
     name = "Land Octopus",
     rules_text_1 = "Overpower (Excess combat damage this would deal to a patroller hits something else this could attack.)",
@@ -3782,9 +3782,9 @@ return {
     color = "Blue",
     cost = 10,
     keywords = {
-      "Flying",
-      "Resist X",
-      "Obliterate X"
+      Flying = true,
+      ["Obliterate X"] = true,
+      ["Resist X"] = true
     },
     name = "Lawbringer Gryphon",
     rules_text_1 = "Your base gains flying. (Ground forces without anti-air can't attack it.)",
@@ -3823,7 +3823,7 @@ return {
     cost = 1,
     flavor_text = "He can reach for the sky.",
     keywords = {
-      "Anti-air"
+      ["Anti-air"] = true
     },
     name = "Leaping Lizard",
     rules_text_1 = "Anti-air (Can attack fliers, but can ignore patrolling fliers. Deals combat damage to fliers it fights or that fly over this while it patrols.)",
@@ -3841,11 +3841,11 @@ return {
     color = "Blue",
     cost = 3,
     keywords = {
-      "Flying",
-      "Haste",
-      "Illusion",
-      "Unstoppable",
-      "Untargetable"
+      Flying = true,
+      Haste = true,
+      Illusion = true,
+      Unstoppable = true,
+      Untargetable = true
     },
     name = "Liberty Gryphon",
     rules_text_1 = "(Illusions die when ◎ by spells or abilities.)",
@@ -3870,7 +3870,7 @@ return {
     color = "Black",
     cost = 2,
     keywords = {
-      "Deathtouch"
+      Deathtouch = true
     },
     name = "Lich's Bargain",
     rules_text_1 = "Sacrifice a worker. Your base takes 4 damage.",
@@ -3895,7 +3895,7 @@ return {
     color = "Red",
     cost = 1,
     keywords = {
-      "Haste"
+      Haste = true
     },
     name = "Lobber",
     rules_text_1 = "Haste (Can attack and play ⤵ abilities the turn he arrives.)",
@@ -3914,7 +3914,7 @@ return {
     color = "Black",
     cost = 7,
     keywords = {
-      "Invisible"
+      Invisible = true
     },
     name = "Lord of Shadows",
     rules_text_1 = "Your black units are invisible. (To opponents without a detector, they are untargetable, unattackable, and can sneak past patrollers. While patrolling, they are attackable.)",
@@ -3939,7 +3939,7 @@ return {
     color = "Blue",
     cost = 2,
     keywords = {
-      "Illusion"
+      Illusion = true
     },
     name = "Macciatus, The Whisperer",
     rules_text_1 = "Your Illusion units get +1/+1 and no longer die when they are ◎ by spells or abilities.",
@@ -3957,7 +3957,7 @@ return {
     color = "Red",
     cost = 1,
     keywords = {
-      "Haste"
+      Haste = true
     },
     name = "Mad Man",
     rules_text_1 = "Haste (Can attack and play ⤵ abilities, if he had any, the turn he arrives.)",
@@ -3998,7 +3998,7 @@ return {
     color = "Red",
     cost = 2,
     keywords = {
-      "Haste"
+      Haste = true
     },
     name = "Makeshift Rambaster",
     rules_text_1 = "Haste (Can attack and play ⤵ abilities, if it had any, the turn it arrives.)",
@@ -4040,8 +4040,8 @@ return {
     color = "Red",
     cost = 3,
     keywords = {
-      "Boost X",
-      "Haste"
+      ["Boost X"] = true,
+      Haste = true
     },
     name = "Marauder",
     pedantry = "Boost effect should not say \"Arrives:\" (because of Boost+Jail ruling, but also for consistency with other Boost Units)",
@@ -4088,7 +4088,7 @@ return {
     color = "White",
     cost = 4,
     keywords = {
-      "Unstoppable"
+      Unstoppable = true
     },
     name = "Masked Raccoon",
     rules_text_1 = "Unstoppable by units if you have another Ninja.",
@@ -4111,7 +4111,7 @@ return {
     color = "Green",
     cost = 2,
     keywords = {
-      "Flying"
+      Flying = true
     },
     max_level = 8,
     max_text_1 = "During your turn: Flying",
@@ -4160,7 +4160,7 @@ return {
     color = "Purple",
     cost = 2,
     keywords = {
-      "Sparkshot"
+      Sparkshot = true
     },
     max_level = 5,
     max_text_1 = "Max Level: You may trash a friendly unit then return it to play. ◎",
@@ -4237,8 +4237,8 @@ return {
     color = "Black",
     cost = 6,
     keywords = {
-      "Invisible",
-      "Readiness"
+      Invisible = true,
+      Readiness = true
     },
     name = "Metamorphosis",
     rules_text_1 = "Sacrifice all units you control.",
@@ -4357,7 +4357,7 @@ return {
     color = "Red",
     cost = 4,
     keywords = {
-      "Flying"
+      Flying = true
     },
     name = "Molting Firebird",
     rules_text_1 = "Flying",
@@ -4402,7 +4402,7 @@ return {
     color = "White",
     cost = 3,
     keywords = {
-      "Flagbearer"
+      Flagbearer = true
     },
     name = "Morningstar Flagbearer",
     rules_text_1 = "Whenever an opponent plays a spell or ability that can ◎ a flagbearer, it must ◎ a flagbearer at least once.",
@@ -4442,9 +4442,9 @@ return {
     cost = 7,
     flavor_text = "The Ancients have watched over the lands since before our history. They are particularly king to small creatures.",
     keywords = {
-      "Untargetable",
-      "Haste",
-      "Invisible"
+      Haste = true,
+      Invisible = true,
+      Untargetable = true
     },
     name = "Moss Ancient",
     rules_text_1 = "Untargetable",
@@ -4472,7 +4472,7 @@ return {
     cost = 5,
     flavor_text = "When the forest is in trouble, the marshlands come to aid. All is connected.",
     keywords = {
-      "Boost X"
+      ["Boost X"] = true
     },
     name = "Murkwood Allies",
     rules_text_1 = "Boost ④ (You may pay an additional ④ when you play this to get the boost effect.)",
@@ -4527,7 +4527,7 @@ return {
     color = "Red",
     cost = 1,
     keywords = {
-      "Frenzy X"
+      ["Frenzy X"] = true
     },
     name = "Nautical Dog",
     rules_text_1 = "Frenzy 1 (Gets +1 ATK on your turn.)",
@@ -4544,9 +4544,9 @@ return {
     color = "Purple",
     cost = 7,
     keywords = {
-      "Flying",
-      "Resist X",
-      "Invisible"
+      Flying = true,
+      Invisible = true,
+      ["Resist X"] = true
     },
     name = "Nebula",
     rules_text_1 = "Flying, resist 3",
@@ -4573,7 +4573,7 @@ return {
     color = "Black",
     cost = 4,
     keywords = {
-      "Long-range"
+      ["Long-range"] = true
     },
     name = "Necromancer",
     rules_text_1 = "Long-range (Defenders without long-range deal no damage to this when it attacks.)",
@@ -4635,7 +4635,7 @@ return {
     cost = 2,
     flavor_text = "\"En Garde!\"",
     keywords = {
-      "Haste"
+      Haste = true
     },
     name = "Nimble Fencer",
     pedantry = "Fix haste reminder text to not use symbol?",
@@ -4659,7 +4659,7 @@ return {
     color = "Purple",
     cost = 1,
     keywords = {
-      "Haste"
+      Haste = true
     },
     name = "Now!",
     rules_text_1 = "Give a unit or hero haste this turn.",
@@ -4676,8 +4676,8 @@ return {
     color = "Purple",
     cost = 2,
     keywords = {
-      "Flying",
-      "Haste"
+      Flying = true,
+      Haste = true
     },
     name = "Nullcraft",
     rules_text_1 = "Flying, haste",
@@ -4702,8 +4702,8 @@ return {
     color = "White",
     cost = 7,
     keywords = {
-      "Resist X",
-      "Swift Strike"
+      ["Resist X"] = true,
+      ["Swift Strike"] = true
     },
     name = "Oathkeeper of Kor Mountain",
     rules_text_1 = "Arrives: Choose an oath: \"I won't play cards from my hand besides workers\" or \"I will skip my draw/discard phase.\" You can't break that oath while Oathkeeper is in play.",
@@ -4783,9 +4783,9 @@ return {
     color = "Purple",
     cost = 2,
     keywords = {
-      "Forecast X",
-      "Haste",
-      "Untargetable"
+      ["Forecast X"] = true,
+      Haste = true,
+      Untargetable = true
     },
     name = "Omegacron",
     pedantry = "Why is Haste capitali\\zed?",
@@ -4892,9 +4892,9 @@ return {
     color = "Blue",
     cost = 8,
     keywords = {
-      "Flying",
-      "Resist X",
-      "Unstoppable"
+      Flying = true,
+      ["Resist X"] = true,
+      Unstoppable = true
     },
     name = "Patriot Gryphon",
     rules_text_1 = "Flying, resist 2 (Opponents must pay ② each time they would ◎ this with a spell or ability.)",
@@ -4921,7 +4921,7 @@ return {
     color = "Black",
     cost = 0,
     keywords = {
-      "Unstoppable"
+      Unstoppable = true
     },
     name = "Pestering Haunt",
     rules_text_1 = "Unstoppable but can't patrol (Can ignore patrollers when attacking.)",
@@ -4966,11 +4966,11 @@ return {
     color = "Red",
     cost = 6,
     keywords = {
-      "Flying",
-      "Haste",
-      "Long-range",
-      "Resist X",
-      "Obliterate X"
+      Flying = true,
+      Haste = true,
+      ["Long-range"] = true,
+      ["Obliterate X"] = true,
+      ["Resist X"] = true
     },
     name = "Pirate Gunship",
     rules_text_1 = "Flying, haste, long-range, resist 2 (Opponents must pay ② each time they would ◎ this with a spell or ability.)",
@@ -5037,7 +5037,7 @@ return {
     color = "Black",
     cost = 6,
     keywords = {
-      "Resist X"
+      ["Resist X"] = true
     },
     name = "Plague Lord",
     rules_text_1 = "Arrives or attacks: Put a -1/-1 rune on each opposing unit and hero.",
@@ -5064,7 +5064,7 @@ return {
     color = "Black",
     cost = 3,
     keywords = {
-      "Anti-air"
+      ["Anti-air"] = true
     },
     name = "Plague Spitter",
     rules_text_1 = "Anti-air (Can attack fliers, but can ignore patrolling fliers. Deals combat damage to fliers it fights or that fly over this while it patrols.)",
@@ -5090,8 +5090,8 @@ return {
     color = "Purple",
     cost = 2,
     keywords = {
-      "Forecast X",
-      "Haste"
+      ["Forecast X"] = true,
+      Haste = true
     },
     name = "Plasmodium",
     pedantry = "Male plasmodium's",
@@ -5195,7 +5195,7 @@ return {
     color = "White",
     cost = 3,
     keywords = {
-      "Deathtouch"
+      Deathtouch = true
     },
     name = "Porcupine",
     rules_text_1 = "Deathtouch (Combat damage this deals to units or heroes, even to their armor, kills them.)",
@@ -5242,8 +5242,8 @@ return {
     cost = 4,
     flavor_text = "Their gaze is deadly and their scales reflective.",
     keywords = {
-      "Deathtouch",
-      "Untargetable"
+      Deathtouch = true,
+      Untargetable = true
     },
     name = "Potent Basilisk",
     rules_text_1 = "Arrives: You may destroy an upgrade or ongoing spell.",
@@ -5262,7 +5262,7 @@ return {
     color = "Green",
     cost = 4,
     keywords = {
-      "Unstoppable"
+      Unstoppable = true
     },
     name = "Predator Tiger",
     rules_text_1 = "Predator Tiger is unstoppable by tech 0 units. (Can ignore tech 0 patrollers when attacking.)",
@@ -5348,7 +5348,7 @@ return {
     color = "Purple",
     cost = 2,
     keywords = {
-      "Fading X"
+      ["Fading X"] = true
     },
     max_level = 7,
     max_text_1 = "Remove two time runes → Trash a unit. ◎",
@@ -5486,7 +5486,7 @@ return {
     color = "Purple",
     cost = 3,
     keywords = {
-      "Forecast X"
+      ["Forecast X"] = true
     },
     name = "Reaver",
     rules_text_1 = "Forecast 2 (Starts off in the future, not in play. Put two time runes on this and remove one each upkeep. When you remove the last, it arrives.)",
@@ -5534,7 +5534,7 @@ return {
     color = "Purple",
     cost = 5,
     keywords = {
-      "Fading X"
+      ["Fading X"] = true
     },
     name = "Rememberer",
     pedantry = "\"this\" vs \"rememberer\"",
@@ -5626,7 +5626,7 @@ return {
     color = "Blue",
     cost = 2,
     keywords = {
-      "Illusion"
+      Illusion = true
     },
     name = "Reteller of Truths",
     rules_text_1 = "(Illusions die when ◎ by spells or abilities.)",
@@ -5666,7 +5666,7 @@ return {
     cost = 2,
     flavor_text = "What's an ocelot, anyway?",
     keywords = {
-      "Sparkshot"
+      Sparkshot = true
     },
     name = "Revolver Ocelot",
     rules_text_1 = "Sparkshot (When attacking a patroller, deals 1 damage to an adjacent patroller.)",
@@ -5837,8 +5837,8 @@ return {
     color = "Red",
     cost = 4,
     keywords = {
-      "Ephemeral",
-      "Haste"
+      Ephemeral = true,
+      Haste = true
     },
     name = "Sanatorium",
     rules_text_1 = "①, ⤵ → Draw a card. Put up to two tech 0, I and/or II units from your hand into play. Those units gain haste and ephemeral. (They die at end of turn.)",
@@ -5868,7 +5868,7 @@ return {
     color = "White",
     cost = 2,
     keywords = {
-      "Healing X"
+      ["Healing X"] = true
     },
     name = "Savior Monk",
     rules_text_1 = "Healing 1 (During your upkeep, heal 1 damage from all friendly units and heroes.)",
@@ -5993,8 +5993,8 @@ return {
     color = "Purple",
     cost = 2,
     keywords = {
-      "Anti-air",
-      "Sparkshot"
+      ["Anti-air"] = true,
+      Sparkshot = true
     },
     name = "Sentry",
     rules_text_1 = "Sparkshot, anti-air",
@@ -6025,7 +6025,7 @@ return {
     color = "White",
     cost = 2,
     keywords = {
-      "Swift Strike"
+      ["Swift Strike"] = true
     },
     max_level = 6,
     max_text_1 = "Upkeep: Draw 2 cards.",
@@ -6072,8 +6072,8 @@ return {
     color = "Purple",
     cost = 1,
     keywords = {
-      "Fading X",
-      "Flying"
+      ["Fading X"] = true,
+      Flying = true
     },
     name = "Shimmer Ray",
     rules_text_1 = "Flying, Fading 2 (Arrives with two time runes. Remove one each upkeep. When you remove the last, sacrifice this.)",
@@ -6099,9 +6099,9 @@ return {
     color = "Red",
     cost = 1,
     keywords = {
-      "Ephemeral",
-      "Haste",
-      "Flying"
+      Ephemeral = true,
+      Flying = true,
+      Haste = true
     },
     name = "Shoddy Glider",
     rules_text_1 = "Haste, ephemeral",
@@ -6119,7 +6119,7 @@ return {
     color = "Black",
     cost = 3,
     keywords = {
-      "Unstoppable"
+      Unstoppable = true
     },
     name = "Shrine of Forbidden Knowledge",
     rules_text_1 = "Upkeep: Your base takes 1 damage.",
@@ -6190,7 +6190,7 @@ return {
     color = "Blue",
     cost = 2,
     keywords = {
-      "Illusion"
+      Illusion = true
     },
     max_level = 5,
     max_text_1 = "Whenever a non-token unit of yours arrives, you may make one of your Mirrors an Illusion copy of it. Trash that token when Quince or its original leaves.",
@@ -6264,8 +6264,8 @@ return {
     color = "Black",
     cost = 2,
     keywords = {
-      "Anti-air",
-      "Long-range"
+      ["Anti-air"] = true,
+      ["Long-range"] = true
     },
     name = "Skeletal Archery",
     rules_text_1 = "Your Skeletons have long-range and anti-air. (Defenders without long-range deal no damage to them when they attack. They can attack fliers, but can ignore patrolling fliers. They deal combat damage to fliers they fight or that fly over them while they patrol.)",
@@ -6311,7 +6311,7 @@ return {
     color = "Black",
     cost = 1,
     keywords = {
-      "Long-range"
+      ["Long-range"] = true
     },
     name = "Skeleton Javelineer",
     rules_text_1 = "Arrives: Put a javelin rune on this.",
@@ -6350,7 +6350,7 @@ return {
     color = "White",
     cost = 1,
     keywords = {
-      "Stealth"
+      Stealth = true
     },
     name = "Smoker",
     rules_text_1 = "Stealth (Can sneak past patrollers if that opponent has no detector.)",
@@ -6406,8 +6406,8 @@ return {
     cost = 3,
     flavor_text = "Have you ever seen a sneaky pig? Exactly.",
     keywords = {
-      "Haste",
-      "Stealth"
+      Haste = true,
+      Stealth = true
     },
     name = "Sneaky Pig",
     rules_text_1 = "Haste",
@@ -6490,8 +6490,8 @@ return {
     color = "Blue",
     cost = 2,
     keywords = {
-      "Flying",
-      "Illusion"
+      Flying = true,
+      Illusion = true
     },
     name = "Spectral Aven",
     rules_text_1 = "(Illusions die when ◎ by spells or abilities.)",
@@ -6509,8 +6509,8 @@ return {
     color = "Blue",
     cost = 1,
     keywords = {
-      "Flagbearer",
-      "Illusion"
+      Flagbearer = true,
+      Illusion = true
     },
     name = "Spectral Flagbearer",
     rules_text_1 = "(Illusions die when ◎ by spells or abilities.)",
@@ -6536,7 +6536,7 @@ return {
     color = "Blue",
     cost = 1,
     keywords = {
-      "Illusion"
+      Illusion = true
     },
     name = "Spectral Hound",
     rules_text_1 = "(Illusions die when ◎ by spells or abilities.)",
@@ -6554,8 +6554,8 @@ return {
     color = "Blue",
     cost = 4,
     keywords = {
-      "Flying",
-      "Illusion"
+      Flying = true,
+      Illusion = true
     },
     name = "Spectral Roc",
     rules_text_1 = "(Illusions die when ◎ by spells or abilities.)",
@@ -6574,7 +6574,7 @@ return {
     color = "Blue",
     cost = 3,
     keywords = {
-      "Illusion"
+      Illusion = true
     },
     name = "Spectral Tiger",
     rules_text_1 = "(Illusions die when ◎ by spells or abilities.)",
@@ -6590,8 +6590,8 @@ return {
     color = "White",
     cost = 2,
     keywords = {
-      "Haste",
-      "Readiness"
+      Haste = true,
+      Readiness = true
     },
     name = "Speed of the Fox",
     rules_text_1 = "Your Ninjutsu hero gets haste, readiness, armor piercing, and +1 ATK this turn.",
@@ -6606,7 +6606,7 @@ return {
     color = "Green",
     cost = 4,
     keywords = {
-      "Healing X"
+      ["Healing X"] = true
     },
     name = "Spirit of the Panda",
     rules_text_1 = "Attach to a unit.",
@@ -6666,8 +6666,8 @@ return {
     color = "Green",
     cost = 3,
     keywords = {
-      "Stealth",
-      "Invisible"
+      Invisible = true,
+      Stealth = true
     },
     name = "Stalking Tiger",
     rules_text_1 = "Stealth while attacking a unit.",
@@ -6790,8 +6790,8 @@ return {
     color = "Red",
     cost = 5,
     keywords = {
-      "Ephemeral",
-      "Haste"
+      Ephemeral = true,
+      Haste = true
     },
     name = "Surprise Attack",
     pedantry = "Add summon subtype?",
@@ -6900,8 +6900,8 @@ return {
     color = "Black",
     cost = 6,
     keywords = {
-      "Obliterate X",
-      "Resist X"
+      ["Obliterate X"] = true,
+      ["Resist X"] = true
     },
     name = "Terras Q, the Shackled",
     rules_text_1 = "Resist 3, Obliterate 2 (Whenever this attacks, destroy the defender's two lowest tech units first.)",
@@ -6945,8 +6945,8 @@ return {
     color = "Blue",
     cost = 3,
     keywords = {
-      "Swift Strike",
-      "Unstoppable"
+      ["Swift Strike"] = true,
+      Unstoppable = true
     },
     name = "The Art of War",
     rules_text_1 = "Your Peace Hero is unstoppable, has swift strike, and gets +2 ATK/+2 armor until your next upkeep.",
@@ -6998,7 +6998,7 @@ return {
     color = "White",
     cost = 2,
     keywords = {
-      "Flying"
+      Flying = true
     },
     name = "Thunderclap",
     rules_text_1 = "Sideline up to three units without flying that cost ② or less. (Move them out of the patrol zone.)",
@@ -7062,7 +7062,7 @@ return {
     cost = 1,
     flavor_text = "\"I'm never late.\"",
     keywords = {
-      "Haste"
+      Haste = true
     },
     name = "Timely Messenger",
     pedantry = "Fix haste reminder text to not use symbol?",
@@ -7103,8 +7103,8 @@ return {
     cost = 2,
     flavor_text = "Some overlooked it. They were better off.",
     keywords = {
-      "Deathtouch",
-      "Unstoppable"
+      Deathtouch = true,
+      Unstoppable = true
     },
     name = "Tiny Basilisk",
     rules_text_1 = "Deathtouch (Combat damage this deals to units or heroes, even to their armor, kills them.)",
@@ -7123,8 +7123,8 @@ return {
     color = "Blue",
     cost = 1,
     keywords = {
-      "Unstoppable",
-      "Untargetable"
+      Unstoppable = true,
+      Untargetable = true
     },
     name = "Traffic Director",
     rules_text_1 = "Unstoppable when attacking a building. (Can ignore patrollers.)",
@@ -7183,7 +7183,7 @@ return {
     cost = 7,
     flavor_text = "This weapon of war was disguised as a gift. It didn't fool many.",
     keywords = {
-      "Obliterate X"
+      ["Obliterate X"] = true
     },
     name = "Trojan Duck",
     rules_text_1 = "Obliterate 2 (Whenever this attacks, destroy the defender's two lowest tech units first.)",
@@ -7219,7 +7219,7 @@ return {
     color = "Neutral",
     cost = 2,
     keywords = {
-      "Readiness"
+      Readiness = true
     },
     max_level = 8,
     max_text_1 = "Readiness (Doesn't exhaust to attack, but can only attack once per turn.)",
@@ -7265,7 +7265,7 @@ return {
     color = "Black",
     cost = 4,
     keywords = {
-      "Overpower"
+      Overpower = true
     },
     name = "Twilight Baron",
     rules_text_1 = "Overpower (Excess combat damage this would deal to a patroller hits something else this could attack.)",
@@ -7338,8 +7338,8 @@ return {
     cost = 8,
     flavor_text = "You can't negotiate with a T-Rex. You're lucky if you can even run.",
     keywords = {
-      "Overpower",
-      "Resist X"
+      Overpower = true,
+      ["Resist X"] = true
     },
     name = "Tyrannosaurus Rex",
     rules_text_1 = "Overpower, resist 2",
@@ -7395,7 +7395,7 @@ return {
     color = "Purple",
     cost = 2,
     keywords = {
-      "Invisible"
+      Invisible = true
     },
     name = "Unphase",
     rules_text_1 = "Make a unit or hero invisible until your next upkeep. (To opponents without a detector, it's untargetable, unattackable, and can sneak past patrollers. While patrolling, it's attackable.)",
@@ -7417,8 +7417,8 @@ return {
     color = "Black",
     cost = 2,
     keywords = {
-      "Sparkshot",
-      "Resist X"
+      ["Resist X"] = true,
+      Sparkshot = true
     },
     max_level = 5,
     max_text_1 = "Max Level: Give +2/+2 to one friendly and one opposing tech 0 or I unit. They lose +2/+2 and die at your next upkeep.",
@@ -7451,7 +7451,7 @@ return {
     cost = 2,
     flavor_text = "Life springs up all around this hallowed tree.",
     keywords = {
-      "Healing X"
+      ["Healing X"] = true
     },
     name = "Verdant Tree",
     rules_text_1 = "Healing 1 (During your upkeep, heal 1 damage from all friendly units and heroes.)",
@@ -7480,8 +7480,8 @@ return {
     color = "White",
     cost = 2,
     keywords = {
-      "Detector",
-      "Flying"
+      Detector = true,
+      Flying = true
     },
     name = "Versatile Style",
     pedantry = "Debuff?",
@@ -7498,8 +7498,8 @@ return {
     color = "White",
     cost = 4,
     keywords = {
-      "Frenzy X",
-      "Readiness"
+      ["Frenzy X"] = true,
+      Readiness = true
     },
     name = "Vigor Adept",
     rules_text_1 = "Frenzy 1 (Gets +1 ATK on your turn.)",
@@ -7524,8 +7524,8 @@ return {
     color = "Purple",
     cost = 2,
     keywords = {
-      "Forecast X",
-      "Untargetable"
+      ["Forecast X"] = true,
+      Untargetable = true
     },
     max_level = 7,
     max_text_1 = "Max Level: Summon a 6/7 purple Mech token with forecast 2 that's untargetable. (It will arrive in two turns.)",
@@ -7565,8 +7565,8 @@ return {
     color = "Purple",
     cost = 5,
     keywords = {
-      "Flying",
-      "Overpower"
+      Flying = true,
+      Overpower = true
     },
     name = "Void Star",
     pedantry = "Maybe \"This gets\" or \"Void star gets\"",
@@ -7607,8 +7607,8 @@ return {
     color = "Purple",
     cost = 0,
     keywords = {
-      "Fading X",
-      "Flagbearer"
+      ["Fading X"] = true,
+      Flagbearer = true
     },
     name = "Vortoss Emblem",
     rules_text_1 = "Fading 3",
@@ -7634,12 +7634,12 @@ return {
     cost = 4,
     flavor_text = "Mimic see, mimic do.",
     keywords = {
-      "Flying",
-      "Haste",
-      "Overpower",
-      "Sparkshot",
-      "Stealth",
-      "Untargetable"
+      Flying = true,
+      Haste = true,
+      Overpower = true,
+      Sparkshot = true,
+      Stealth = true,
+      Untargetable = true
     },
     name = "Wandering Mimic",
     rules_text_1 = "As long as a unit or hero with flying is in play, Wandering Mimic has flying. The same is true for overpower, haste, sparkshot, untargetable, and stealth.",
@@ -7724,8 +7724,8 @@ return {
     color = "Black",
     cost = 4,
     keywords = {
-      "Unstoppable",
-      "Deathtouch"
+      Deathtouch = true,
+      Unstoppable = true
     },
     name = "Wight",
     rules_text_1 = "Unstoppable when attacking heroes.",
@@ -7777,8 +7777,8 @@ return {
     color = "Purple",
     cost = 4,
     keywords = {
-      "Unstoppable",
-      "Flying"
+      Flying = true,
+      Unstoppable = true
     },
     name = "Xenostalker",
     rules_text_1 = "Unstoppable (Can ignore patrollers when attacking.)",
@@ -7804,7 +7804,7 @@ return {
     color = "Purple",
     cost = 3,
     keywords = {
-      "Fading X"
+      ["Fading X"] = true
     },
     name = "Yesterday's Golgort",
     rules_text_1 = "Fading 2 (Arrives with two time runes. Remove one each upkeep. When you remove the last, sacrifice this.)",
@@ -7830,7 +7830,7 @@ return {
     color = "White",
     cost = 3,
     keywords = {
-      "Flying"
+      Flying = true
     },
     name = "Young Lightning Dragon",
     rules_text_1 = "Flying (Can fly over ground patrollers. Ground forces without anti-air can't attack this or deal combat damage to it when attacked.)",
@@ -7873,8 +7873,8 @@ return {
     color = "Black",
     cost = 10,
     keywords = {
-      "Obliterate X",
-      "Untargetable"
+      ["Obliterate X"] = true,
+      Untargetable = true
     },
     name = "Zarramonde, the Obliterator",
     rules_text_1 = "Arrives: If you played Zarramonde from your hand, destroy a unit, hero, worker, upgrade, or ongoing spell.",
