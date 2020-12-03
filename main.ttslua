@@ -1,47 +1,61 @@
 --[[ Lua code. See documentation: https://api.tabletopsimulator.com/ --]]
 
--- require("tk/main")
-
-
 function filterObjectEnterContainer(container, obj)
-    if container.tag == "Deck" or container.tag == "Card" or obj.getDescription():find(" Hero", 1, true) then
-        -- print("m " .. tostring(obj.getDescription():find(" Hero", 1, true)))
-        return false
-    else
-        return true
-    end
+  if container.tag == "Deck" or container.tag == "Card" or obj.getDescription():find(" Hero", 1, true) then
+    -- print("m " .. tostring(obj.getDescription():find(" Hero", 1, true)))
+    return false
+  else
+    return true
+  end
 end
 
 local containers = {
-    P1 = { -- blue
-        deck = "",
-        discard = "",
-        workers = "",
-    },
-    P2 = { -- white
-        deck = "",
-        discard = "",
-        workers = "",
+  P1 = { -- blue
+    deck = "",
+    discard = "",
+    workers = "",
+  },
+  P2 = { -- white
+    deck = "",
+    discard = "",
+    workers = "",
 
-    },
+  },
 }
 
+-- function getContainers()
+--   for _,obj in ipairs(getAllObjects()) do
+--
+--   end
+-- end
+--
+-- local cards = require("codex/carddb")
+--
+-- function onObjectHover(player_color, obj)
+--     if obj == nil then
+--         return
+--     end
+--     local e = cards[obj.getName()]
+--     if e then
+--         obj.highlightOn(e.color, 1)
+--     end
+-- end
 
-function getContainers()
-    for _,obj in ipairs(getAllObjects()) do
 
-    end
-end
-
+Global.script_state = ''
+local Logger = require("ge_tts/Logger")()
+print(type(Logger))
+print(logString(Logger))
+Logger.setFilterLevel(1)
 local dz = require("ge_tts/DropZone")
+-- print("sz")
 
-local function detectdups(container)
-    local guids = {}
-    for _,obj in ipairs(container.getObjects()) do
-        if guids[obj.guid] then
-            print("dup in " .. container.getName() .. " guid " .. obj.guid)
-            return
-        end
-    end
-    print("no dups in " .. container.getName())
+local sm = require("ge_tts/SaveManager")
+
+local function ol()
+    -- print(Global.script_state)
+    print("hi")
+    local sz = dz({0,0,0}, {0,0,0}, {8,8,8})
 end
+
+sm.registerOnLoad('', ol)
